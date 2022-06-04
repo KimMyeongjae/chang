@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr 1fr 1fr);
+}
+.item {
+  border: 1px;
+}
+
+@media (max-width: 485px) {
+  /* 작을때 */
+  .container {
+    zoom: 0.9;
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+  }
+}
+
+.h {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.rmkCntr {
+  position: relative;
+  margin-top: 50px;
+}
+.s {
+  text-align: left;
+  width: 88.19px;
+}
