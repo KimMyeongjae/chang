@@ -68,8 +68,17 @@
   </head>
 
   <body>
-    <h1 class="h"></h1>
-    <div class="container" style="text-align: left; overflow: auto">
+    <h5 class="h">
+      <div id="combo">
+        <select class="combo" onchange="handleOnChange(this)">
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+        </select>
+      </div>
+    </h5>
+
+    <div id="first" class="container" style="text-align: left; overflow: auto">
       <table class="output"></table>
       <script src="chang.js"></script>
     </div>

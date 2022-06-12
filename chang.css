@@ -15,7 +15,9 @@
     -webkit-transform: scale(0.9);
   }
 }
-
+.combo {
+  border: none;
+}
 .h {
   margin-top: 20px;
   padding-bottom: 20px;
